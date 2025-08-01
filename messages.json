@@ -127,7 +127,9 @@
       { "Text": "うーん…", "Image": "thoughtful" },
       { "Text": "はっ！", "Image": "happy" },
       { "Text": "…", "Image": "thoughtful" },
-      { "Text": "ぴょんぴょん！", "Image": "happy" }
+      { "Text": "ぴょんぴょん！", "Image": "happy" },
+      { "Text": "今日のごはんはなんだろなー？", "Image": "hungry" },
+      { "Text": "おそら、きもちいいなー！", "Image": "happy" }
     ]
   },
   "Planet": {
@@ -244,7 +246,9 @@
       { "Text": "特に何もすることがないな。", "Image": "sit" },
       { "Text": "平和が一番。", "Image": "happy" },
       { "Text": "うーん…。", "Image": "thoughtful" },
-      { "Text": "なんだか眠いな…。", "Image": "yawn" }
+      { "Text": "なんだか眠いな…。", "Image": "yawn" },
+      { "Text": "あー、だるい…", "Image": "sleepy" },
+      { "Text": "なんか、いいことないかな…", "Image": "thoughtful" }
     ]
   },
   "Lumina": {
@@ -361,7 +365,9 @@
       { "Text": "実に興味深い。", "Image": "happy" },
       { "Text": "思考が加速する…！", "Image": "happy" },
       { "Text": "生命とは、情報だ。", "Image": "look_up" },
-      { "Text": "静寂が、私の思考をクリアにする。", "Image": "sit" }
+      { "Text": "静寂が、私の思考をクリアにする。", "Image": "sit" },
+      { "Text": "新たなアルゴリズムを考案中だ。", "Image": "thoughtful" },
+      { "Text": "この世界の真理は、まだ遠い。", "Image": "thoughtful" }
     ]
   }
 }
