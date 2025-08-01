@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デスクトップマスコット (Web版)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mascot-container">
+        <!-- キャラクター画像 -->
+        <img id="character-image" src="mascot_image_priset/Mascot/mascot.png" alt="マスコット">
+
+        <!-- 吹き出し表示エリア -->
+        <div id="bubble-area">
+            <!-- ユーザー吹き出し（右寄せ） -->
+            <div id="user-bubble" class="bubble user-bubble" style="display: none;">
+                <p id="user-text"></p>
+            </div>
+            <!-- マスコット吹き出し（左寄せ） -->
+            <div id="mascot-bubble" class="bubble mascot-bubble" style="display: none;">
+                <p id="mascot-text"></p>
+            </div>
+        </div>
+
+        <!-- ボタン群 -->
+        <div id="button-area">
+            <div class="button-row">
+                <button id="greeting-button"></button>
+                <button id="weather-button"></button>
+                <button id="time-button"></button>
+                <button id="joke-button"></button>
+            </div>
+            <div class="button-row">
+                <button id="goodbye-button"></button>
+                <button id="howareyou-button"></button>
+                <button id="compliment-button"></button>
+                <button id="motivation-button"></button>
+            </div>
+            <div class="button-row">
+                <button id="advice-button"></button>
+                <button id="story-button"></button>
+                <button id="food-button"></button>
+                <button id="music-button"></button>
+            </div>
+            <div class="button-row">
+                <button id="study-button"></button>
+                <button id="sleep-button"></button>
+                <button id="thanks-button"></button>
+            </div>
+        </div>
+
+        <!-- 右クリックメニュー -->
+        <div id="context-menu" style="display: none;">
+            <button id="open-menu-button">メニューを開く</button>
+            <button id="exit-button">終了</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
