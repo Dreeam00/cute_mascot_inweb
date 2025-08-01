@@ -241,20 +241,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setupButtonTexts() {
         const prompts = messages[currentMascot]?.Prompts || {};
-        document.getElementById('greeting-button').textContent = prompts.Greeting || 'あいさつ';
-        document.getElementById('weather-button').textContent = prompts.Weather || '天気';
-        document.getElementById('time-button').textContent = prompts.Time || '時間';
-        document.getElementById('joke-button').textContent = prompts.Joke || 'ジョーク';
+        document.getElementById('greeting-button').textContent = prompts.Greeting || 'おはよう！';
+        document.getElementById('weather-button').textContent = prompts.Weather || '今日の天気は？';
+        document.getElementById('time-button').textContent = prompts.Time || '時間を教えて';
+        document.getElementById('joke-button').textContent = prompts.Joke || '面白いお話をして';
         document.getElementById('goodbye-button').textContent = prompts.Goodbye || 'さようなら';
-        document.getElementById('howareyou-button').textContent = prompts.HowAreYou || '元気？';
-        document.getElementById('compliment-button').textContent = prompts.Compliment || 'ほめる';
-        document.getElementById('motivation-button').textContent = prompts.Motivation || '励ます';
-        document.getElementById('advice-button').textContent = prompts.Advice || 'アドバイス';
-        document.getElementById('story-button').textContent = prompts.Story || 'お話';
-        document.getElementById('food-button').textContent = prompts.Food || '食べ物';
-        document.getElementById('music-button').textContent = prompts.Music || '音楽';
-        document.getElementById('study-button').textContent = prompts.Study || '勉強';
-        document.getElementById('sleep-button').textContent = prompts.Sleep || '寝る';
+        document.getElementById('howareyou-button').textContent = prompts.HowAreYou || '調子はどう？';
+        document.getElementById('compliment-button').textContent = prompts.Compliment || 'かわいいね';
+        document.getElementById('motivation-button').textContent = prompts.Motivation || '励まして';
+        document.getElementById('advice-button').textContent = prompts.Advice || 'アドバイスを';
+        document.getElementById('story-button').textContent = prompts.Story || 'お話を聞かせて';
+        document.getElementById('food-button').textContent = prompts.Food || 'おすす料理は？';
+        document.getElementById('music-button').textContent = prompts.Music || '音楽何が好き？';
+        document.getElementById('study-button').textContent = prompts.Study || '勉強のコツは？';
+        document.getElementById('sleep-button').textContent = prompts.Sleep || '眠い';
         document.getElementById('thanks-button').textContent = prompts.Thanks || 'ありがとう';
     }
 
